@@ -73,7 +73,7 @@ class ViewController: UIViewController {
             }
         }
     }
-    
+    // Hide keyboard when you touch on screen
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if touches.first != nil {
             view.endEditing(true)
